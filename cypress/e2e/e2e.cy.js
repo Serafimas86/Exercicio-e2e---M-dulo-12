@@ -11,10 +11,10 @@ describe('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
     //Selecionar Produto e Adicionar ao carrinho
     it.only('Deve adicionar produtos ao carrinho - Usando comando customizado', () => {
-        cy.addProdutos('Balboa Persistence Tee', 'XS', 'Gray' , 1)  
-        cy.addProdutos('Beaumont Summit Kit', 'XS', 'Orange' , 1)
-        cy.addProdutos('Bruno Compete Hoodie', 'XS', 'Black' , 1)
-        cy.addProdutos('Caesar Warm-Up Pant', '32', 'Black' , 1)
+        cy.addProdutos('Cassius Sparring Tank', 'S', 'Blue' , 1)  
+        cy.addProdutos('Celeste Sports Bra', 'XS', 'Green' , 1)
+        cy.addProdutos('Chaz Kangeroo Hoodie', 'XS', 'Black' , 1)
+        cy.addProdutos('Circe Hooded Ice Fleece', 'XS', 'Gray' , 1)
         
     //Dados Cadastrais
         cy.get('.woocommerce-message > .button').click()
